@@ -37,7 +37,7 @@ extern HardwareSPI SPI;
 #endif
 
 // Avoid spurious warnings
-#if 1
+#if 0
 #if ! defined( NATIVE ) && defined( ARDUINO )
 #undef PROGMEM
 #define PROGMEM __attribute__(( section(".progmem.data") ))
